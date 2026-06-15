@@ -105,3 +105,10 @@ Subscribe to `/behavior_server/increase_clearance/debug_markers` (MarkerArray, f
 - Pure repulsion pushes **away from obstacles**, not toward open gaps.
 - Footprint should update when the arm moves (`robot_footprint_publisher`).
 - Tune `influence_radius` and `force_gain` if motion is too aggressive.
+
+## Video of calling the action server.
+
+
+https://github.com/user-attachments/assets/ba3884b9-7a06-4253-baa1-a4dc099b532f
+
+
