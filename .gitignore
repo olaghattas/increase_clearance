@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+
+# ROS 2 / Colcon build artifacts (since you are in an ament_ws)
+build/
+install/
+log/

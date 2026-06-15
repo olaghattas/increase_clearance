@@ -1,0 +1,23 @@
+# Goal (empty — all tuning via YAML params)
+---
+# Result
+float32 final_min_clearance
+builtin_interfaces/Duration total_elapsed_time
+
+# Error codes
+uint16 NONE=0
+uint16 UNKNOWN=800
+uint16 TIMEOUT=801
+uint16 TF_ERROR=802
+uint16 NO_SCAN=803
+uint16 NO_FOOTPRINT=804
+
+uint16 error_code
+string error_msg
+---
+# Feedback
+float32 min_clearance
+float32 net_force_x
+float32 net_force_y
+float32 cmd_vel_x
+float32 cmd_vel_y

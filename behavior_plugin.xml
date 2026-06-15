@@ -1,0 +1,5 @@
+<library path="increase_clearance_plugin">
+  <class type="increase_clearance::IncreaseClearance" base_class_type="nav2_core::Behavior">
+    <description>This is a plugin which moves the robot to increase the clearance between the robot and the obstacle.</description>
+  </class>
+</library>
